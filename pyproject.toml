@@ -1,8 +1,8 @@
 [project]
 name = "weilin-comfyui-prompt-all-in-one"
 description = "WeiLin-ComfyUI-Prompt-all-in-one Write prompt words like WebUI"
-version = "3.6.9.1"
-license = {file = "LICENSE"}
+version = "3.6.9"
+license = "LICENSE"
 
 [project.urls]
 Repository = "https://github.com/weilin9999/WeiLin-ComfyUI-prompt-all-in-one"
@@ -10,5 +10,5 @@ Repository = "https://github.com/weilin9999/WeiLin-ComfyUI-prompt-all-in-one"
 
 [tool.comfy]
 PublisherId = "weilin"
-DisplayName = "WeiLin-ComfyUI-prompt-all-in-one"
+DisplayName = "WeiLin"
 Icon = ""

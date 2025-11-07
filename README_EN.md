@@ -4,41 +4,25 @@
 
 </div>
 
-
-# Please note that this node no longer accepts any feedback or updates!
-### This node is no longer updated and will be replaced by a new node. New node: [WeiLin-Comfyui-Tools](https://github.com/weilin9999/WeiLin-Comfyui-Tools) The new node will continue to update and the installation method of the new node is more convenient and better than that of the old node. The new node is not compatible with the old node, but the Tag data of the old node can be migrated to the new node. Please refer to the new node for more information!
-
-### This plugin is no longer updated! Please use the brand new plugin!
-New plugin link: [WeiLin-Comfyui-Tools](https://github.com/weilin9999/WeiLin-Comfyui-Tools)
-
 # Author Statement
 
 Due to limited personal time, the frequency of updating plug-ins will not be very high, occasionally free may update once, each update as far as possible to meet the proposed needs, generally no big BUG basically update frequency is not high, 2~5 a month, thank you for your use and support of this plug-in. You can submit an Issue or you can submit your Request to help update this plugin.
 
 # Version update introduction
 
-> Last updated: 2024-11-26
-
-> 3.6.9.1 Version Introduction (Due to my work, I have time to update the plug-in, forgive me! Thank you very much for your support of this plugin!)
->
-> 1. Fixed an issue in the merge code: [#15](https://github.com/weilin9999/WeiLin-ComfyUI-prompt-all-in-one/pull/15) to the modified Lora loading apis in a timeout situation in (thanks for the code contributor provides the help, Thanks to contributors for supporting this plugin, thanks to everyone who uses this plugin)
-> 2. Added a new function to load all Lora covers at the bottom of the input box, and the background can view the loading progress. This code is provided by [#15](https://github.com/weilin9999/WeiLin-ComfyUI-prompt-all-in-one/pull/15) contributor
-
-<details>
-
-<summary>
-Click here for more updates from the past
-</summary>
-
-> 3.6.9 Version Introduction
->
-> 1. Fixed known BUG: Offline translation model translation problem in API Settings, fixed
+> Last updated: 2024-10-04
 
 > 3.6.8 Version Introduction
 >
 > 1. New - Global shortcut key (Set the default to CTRL+ALT+W in ComfyUI Settings to call the global editor)
 > 2. New - Floating ball hiding Settings
 > 3. Modification - Settings interface optimization ADAPTS to the new UI of the new version of ComfyUI
+
+<details>
+
+<summary>
+Click here for more updates from the past
+</summary>
 
 > 3.6.5 Version Introduction
 >
