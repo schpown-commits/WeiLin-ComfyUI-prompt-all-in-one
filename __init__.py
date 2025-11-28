@@ -25,14 +25,14 @@ class WeiLinComfyUIPromptAllInOneGreat:
                 "positive": ("STRING", {
                     "multiline": True,
                     "default": "",
-                    "placeholder": "输入正向提示词",
+                    "placeholder": "Gib hier den positiven Prompt ein",
                 })
             },
         }
 
     RETURN_TYPES = ("STRING",)
 
-    RETURN_NAMES = ("正向 STRING",)
+    RETURN_NAMES = ("Positiver STRING",)
 
     FUNCTION = "encode"
 
@@ -56,14 +56,14 @@ class WeiLinComfyUIPromptAllInOneNeg:
                 "negative": ("STRING", {
                     "multiline": True,
                     "default": "",
-                    "placeholder": "输入反向提示词",
+                    "placeholder": "Gib hier den negativen Prompt ein",
                 })
             },
         }
 
     RETURN_TYPES = ("STRING",)
 
-    RETURN_NAMES = ("反向 STRING",)
+    RETURN_NAMES = ("Negativer STRING",)
 
     FUNCTION = "encode"
 
@@ -87,19 +87,19 @@ class WeiLinPromptToString:
                 "positive": ("STRING", {
                     "multiline": True,
                     "default": "",
-                    "placeholder": "输入正向提示词",
+                    "placeholder": "Gib hier den positiven Prompt ein",
                 }),
                 "negative": ("STRING", {
                     "multiline": True,
                     "default": "",
-                    "placeholder": "输入反向提示词",
+                    "placeholder": "Gib hier den negativen Prompt ein",
                 }),
             },
         }
 
     RETURN_TYPES = ("STRING","STRING")
 
-    RETURN_NAMES = ("正向 STRING","反向 STRING")
+    RETURN_NAMES = ("Positiver STRING","Negativer STRING")
 
     FUNCTION = "encode"
 
@@ -127,12 +127,12 @@ class WeiLinComfyUIPromptToLoras:
                 "positive": ("STRING", {
                     "multiline": True,
                     "default": "",
-                    "placeholder": "输入正向提示词",
+                    "placeholder": "Gib hier den positiven Prompt ein",
                 }),
                 "negative": ("STRING", {
                     "multiline": True,
                     "default": "",
-                    "placeholder": "输入反向提示词",
+                    "placeholder": "Gib hier den negativen Prompt ein",
                 }),
             },
         }
@@ -140,7 +140,7 @@ class WeiLinComfyUIPromptToLoras:
     # RETURN_TYPES = ("STRING",)
     # RETURN_TYPES = ("MODEL", "CLIP")
     RETURN_TYPES = ("MODEL", "CONDITIONING", "CONDITIONING")
-    RETURN_NAMES = ("model","正向条件 CONDITIONING","负面条件 CONDITIONING")
+    RETURN_NAMES = ("model","Positive Bedingung CONDITIONING","Negative Bedingung CONDITIONING")
 
     # FUNCTION = "encode"
     FUNCTION = "load_lora_great"
@@ -215,7 +215,7 @@ class WeiLinComfyUIPromptToLorasOnly:
                 "positive": ("STRING", {
                     "multiline": True,
                     "default": "",
-                    "placeholder": "输入正向提示词",
+                    "placeholder": "Gib hier den positiven Prompt ein",
                 })
             },
         }
@@ -223,7 +223,7 @@ class WeiLinComfyUIPromptToLorasOnly:
     # RETURN_TYPES = ("STRING",)
     # RETURN_TYPES = ("MODEL", "CLIP")
     RETURN_TYPES = ("MODEL", "CONDITIONING",)
-    RETURN_NAMES = ("model","正向条件 CONDITIONING",)
+    RETURN_NAMES = ("model","Positive Bedingung CONDITIONING",)
 
     # FUNCTION = "encode"
     FUNCTION = "load_lora_great"
