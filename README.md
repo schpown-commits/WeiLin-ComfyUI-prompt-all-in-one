@@ -1,3 +1,69 @@
+</div>
+
+GERMAN VERSION
+
+
+Hinweis: Dieser Knoten akzeptiert kein Feedback und keine Updates mehr!
+Dieser Knoten wird nicht mehr aktualisiert, der neue Knoten ersetzt diesen Knoten, der neue Knoten: WeiLin-Comfyui-Tools , der neue Knoten wird kontinuierlich aktualisiert und der neue Knoten ist bequemer und besser als die Installationsmethode des alten Knotens, der neue Knoten ist nicht kompatibel mit dem alten Knoten, aber die Tag-Daten des alten Knotens können auf den neuen Knoten migriert werden, bitte besuchen Sie den neuen Knoten für weitere Details!
+Dieses Plugin wird nicht mehr aktualisiert! Bitte benutze das neue Plugin!
+
+新插件链接: WeiLin-Comfyui-Tools
+Besondere Aufmerksamkeit
+
+Aufgrund meiner begrenzten Zeit können Sie bei dringenden Fragen der QQ-Gruppe beitreten: 1018231382 Ich werde sie einzeln beantworten, wenn ich Zeit habe
+
+Ich habe ein neues Plugin aktualisiert, und das alte Plugin wird in Zukunft schrittweise durch das neue ersetzt. Wenn du es nutzen möchtest, gib bitte QQ ein! Du musst die Werkzeuge für die Verteilung neuer Plugins und die Dateimigration verstehen, bevor du sie nutzt, vielen Dank für deine Unterstützung! Neue Plugin-Adresse: https://github.com/weilin9999/WeiLin-Comfyui-Tools
+Stellungnahme des Autors
+
+Aufgrund der begrenzten Zeit des Einzelnen ist die Häufigkeit der Aktualisierung des Plugins nicht sehr hoch, gelegentlich kann es einmal aktualisiert werden, wobei jedes Update versucht, die vorgeschlagenen Bedürfnisse zu erfüllen, in der Regel gibt es keine großen Bugs. Im Grunde ist die Aktualisierungshäufigkeit nicht hoch, 2~5 Änderungen pro Monat. Danke, dass Sie dieses Plugin nutzen und unterstützen. Wenn Sie Bedarf haben, können Sie ein Problem einreichen oder Ihre Anfrage stellen, um bei diesem Plugin zu helfen.
+Einführung in Versionsupdates
+
+    Letzte Aktualisierung: 26.11.2024
+
+    3.6.9.1 Versionseinführung (Aufgrund meiner Arbeit habe ich in meiner Freizeit Zeit, das Plugin zu aktualisieren, verzeihen Sie!) Vielen Dank für deine Unterstützung dieses Plugins! )
+
+        Ich habe ein Problem im Merge-Code behoben: #15 Lora-Lade-API in #15 modifiziert, um eine Auszeit auszulösen (danke an den Code-Mitwirkenden für die Hilfe, danke an den Mitwirkenden für die Unterstützung dieses Plugins, danke an alle, die dieses Plugin verwenden).
+        Am unteren Rand des Eingabefelds wurde eine neue Funktion hinzugefügt, um alle Lora-Cover zu laden, und der Ladefortschritt kann im Hintergrund angezeigt werden; dieser Code wurde vom #15-Mitwirkenden
+
+Klicken Sie hier für weitere Updates in früheren Ausgaben
+
+
+
+
+
+
+
+
+Tipps zum Schreiben von Lora-Prompts
+
+lora:xxxx:0.3:0.4 Diese Schreibweise erklärt, dass 0,3 die Stärke des Modells und 0,4 die Stärke des CLIPS ist Wenn du lora:xxxx:0.4 bist, erklärt diese Schreibweise, dass sowohl die Modellstärke als auch die CLIP-Stärke 0,4 sind
+Zusammenfassung
+
+Dieses Projekt ermöglicht es Ihnen, Prompts in ComfyUI wie WebUI zu schreiben, das vom Prompt-all-in-one-Projekt abgewandelt wurde, aber die meisten Änderungen zur Anpassung an ComfyUI vorgenommen hat, viele verschiedene Funktionen hinzugefügt hat, und das Prompt-Completion Plugin, das Prompt-Completion Plugin wurde vom ComfyUI-Custom-Scripts-Projekt übernommen, danke für Ihre Unterstützung dieses Plugins.
+
+Wenn Sie an diesem Projekt interessiert sind, belohnen Sie bitte einen Star!
+Um das Tutorial zu installieren, kannst du dieses Projekt direkt herunterladen
+
+    https://github.com/weilin9999/WeiLin-ComfyUI-prompt-all-in-one.git
+
+Installiere das Plugin im Detail, installiere die Version manuell
+
+Laden Sie direkt die neueste Version dieses Projekts herunter, entpacken Sie sie, legen Sie sie in ComfyUI und starten Sie ComfyUI direkt, um dieses Plugin zu verwenden.
+Knotennutzungsmethode
+
+Verwenden Sie es einfach wie folgt.
+Plugin-Einstellungsvorschau
+
+WeiLin-ComfyUI-Prompt-all-in-one 借鉴项目
+
+WeiLin-ComfyUI-Prompt-all-in-one ist eine ComfyUI-Version von prompt-all-in-one, die auf sd-webui-prompt-all-in-one-app-https://github.com/Physton/sd-webui-prompt-all-in-one-app Für die modifizierte Version von ComfyUI im Projekt muss man nur den ComfyUI-Knoten des Projekts zu ComfyUI hinzufügen, um den visuellen Tag-Editor zu verwenden, und der Prompt wird mit https://github.com/pythongosssss/ComfyUI-Custom-Scripts Das Projekt nutzte nur die Vervollständigungsfunktion und nahm Änderungen vor, und das lokale LLM-Modell, das im Projekt verwendet wurde, übernahm den Code des https://github.com/thisjam/comfyui-sixgod_prompt-Repositorys
+
+Wenn dir dieses Projekt gefällt, hol dir einen Star!
+Kurze Beschreibung dieses Projekts
+Das Projekt war anfangs nur praktisch, um Tags zu bearbeiten, also habe ich mein eigenes Plugin geschrieben, und wenn es ein Problem gibt, kann man ein Problem einreichen, und es wird vielleicht nicht behoben. 
+
+
+
 <div align="center">
   
 ### [🇨🇳 简体中文](README.md) | [🇺🇸 English](README_EN.md)
